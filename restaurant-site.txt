@@ -1,0 +1,235 @@
+restaurant-site/
+│
+├── index.html
+├── menu.html
+├── about.html
+├── contact.html
+├── style.css
+├── butter-chicken.jpg
+├── paneer-tikka.jpg
+├── gulab-jamun.jpg
+└── indian-food.jpg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spice of India - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="top">
+    <h1>Spice of India</h1>
+    <p>Authentic Indian Cuisine</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="hero">Welcome to Spice of India</div>
+
+  <section class="highlights">
+    <h2>Chef’s Specialties</h2>
+    <div class="highlight-grid">
+      <div class="dish">
+        <img src="butter-chicken.jpg" alt="Butter Chicken">
+        <h3>Butter Chicken</h3>
+        <p>Creamy tomato gravy with tender chicken pieces.</p>
+      </div>
+      <div class="dish">
+        <img src="paneer-tikka.jpg" alt="Paneer Tikka">
+        <h3>Paneer Tikka</h3>
+        <p>Grilled cottage cheese cubes marinated in spices.</p>
+      </div>
+      <div class="dish">
+        <img src="gulab-jamun.jpg" alt="Gulab Jamun">
+        <h3>Gulab Jamun</h3>
+        <p>Sweet milk dumplings soaked in rose‑flavored syrup.</p>
+      </div>
+    </div>
+    <a href="menu.html" class="menu-button">See Full Menu</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Spice of India</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spice of India - Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="top">
+    <h1>Our Menu</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="highlights">
+    <h2>Chef’s Specialties</h2>
+    <div class="highlight-grid">
+      <div class="dish">
+        <img src="butter-chicken.jpg" alt="Butter Chicken">
+        <h3>Butter Chicken</h3>
+        <p>Creamy tomato gravy with tender chicken pieces.</p>
+        <span class="price">₹350</span>
+      </div>
+      <div class="dish">
+        <img src="paneer-tikka.jpg" alt="Paneer Tikka">
+        <h3>Paneer Tikka</h3>
+        <p>Grilled cottage cheese cubes marinated in spices.</p>
+        <span class="price">₹180</span>
+      </div>
+      <div class="dish">
+        <img src="gulab-jamun.jpg" alt="Gulab Jamun">
+        <h3>Gulab Jamun</h3>
+        <p>Sweet milk dumplings soaked in rose‑flavored syrup.</p>
+        <span class="price">₹150</span>
+      </div>
+    </div>
+    <a href="#full-menu" class="menu-button">See Full Menu</a>
+  </section>
+
+  <section id="full-menu" class="menu-section">
+    <h2>Starters</h2>
+    <div class="menu-item">
+      <h3>Samosa <span class="price">₹120</span></h3>
+      <p>Crisp pastry filled with spiced potatoes.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Paneer Tikka <span class="price">₹180</span></h3>
+      <p>Grilled cottage cheese cubes marinated in spices.</p>
+    </div>
+  </section>
+
+  <section class="menu-section">
+    <h2>Main Courses</h2>
+    <div class="menu-item">
+      <h3>Butter Chicken <span class="price">₹350</span></h3>
+      <p>Creamy tomato gravy with tender chicken.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Chole Bhature <span class="price">₹220</span></h3>
+      <p>Spicy chickpeas served with fluffy fried bread.</p>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#top" class="back-to-top">Back to Top ↑</a>
+    <p>&copy; 2026 Spice of India</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spice of India - About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="top">
+    <h1>About Us</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="about">
+    <h2>Our Story</h2>
+    <p>Founded in 2010, Spice of India brings authentic flavors from across India to your table. Our chefs use traditional recipes and fresh ingredients to create unforgettable meals.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Spice of India</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spice of India - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="top">
+    <h1>Contact Us</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <p>📍 123 Curry Lane, New Delhi</p>
+    <p>☎ +91 98765 43210</p>
+    <p>Email: info@spiceofindia.com</p>
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="400" height="300" style="border:0;" allowfullscreen></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Spice of India</p>
+  </footer>
+</body>
+</html>
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+header {
+  background-color: #b22222;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+nav {
+  background-color: #ffcc66;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.hero {
+  background: url('indian-food.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font
