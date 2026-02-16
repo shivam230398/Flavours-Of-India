@@ -48,8 +48,7 @@ We welcome contributions! Please follow these steps:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any inquiries, please reach out to:  
-Email: info@flavoursofindia.com  
-Phone: +1-234-567-8900  
+For any inquiries, please reach out to:    
+Phone: +996504714141  
 
 Thank you for visiting Flavours of India!
